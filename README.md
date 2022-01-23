@@ -1,0 +1,2 @@
+-- This repository objective to solve challenges using concepts of Javascript.
+-- Este repositório tem como objetivo resolver desafios utilizando conceitos de Javascript.
