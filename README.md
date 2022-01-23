@@ -4,6 +4,6 @@
 
 ## Challenges
 
-[x] MAP
-[ ] Filter
-[ ] Reduce
+[x] ♠ MAP <br/>
+[ ] ♠ Filter <br/>
+[ ] ♠ Reduce <br/>
