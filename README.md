@@ -5,5 +5,6 @@
 ## Challenges
 
 - [x] • MAP <br/>
-- [ ] • Filter <br/>
-- [ ] • Reduce <br/>
+- [x] • Filter <br/>
+- [x] • Reduce <br/>
+- [x] • MAP, FILTER AND REDUCE <br/>
