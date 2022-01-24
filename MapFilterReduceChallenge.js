@@ -15,7 +15,7 @@ const companies = [
 const updatingCompanies = companies.map((company,index,array)=>{
     company = {
         name:company.name,
-        marketValue: (company.marketValue * 1.1),
+        marketValue: (company.marketValue + company.marketValue/10),
         CEO: company.CEO,
         foundedOn: company.foundedOn
     }
