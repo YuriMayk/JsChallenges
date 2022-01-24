@@ -12,17 +12,17 @@ const companies = [
     {name:"Apple", marketValue:845 , CEO:"Tim Cook", foundedOn:1976},
 ]
 
-const updatingCompanies = companies.map((companie,index,array)=>{
-    companie = {
-        name:companie.name,
-        marketValue: (companie.marketValue * 1.1),
-        CEO: companie.CEO,
-        foundedOn: companie.foundedOn
+const updatingCompanies = companies.map((company,index,array)=>{
+    company = {
+        name:company.name,
+        marketValue: (company.marketValue * 1.1),
+        CEO: company.CEO,
+        foundedOn: company.foundedOn
     }
-    return companie
+    return company
 })
 
-const oldersCompanies = updatingCompanies.filter((companie)=> companie.foundedOn <= 2000)
+const oldersCompanies = updatingCompanies.filter((company)=> company.foundedOn <= 2000)
 
 const allOldersCompaniesMarketValue = oldersCompanies.reduce((accumulator, current) => current.marketValue + accumulator,0)
 
